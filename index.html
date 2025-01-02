@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <img src="./logo.svg" alt="logo" class="header__nav-logo" />
+        <img src="./burger.svg" alt="buguer" class="header__nav-burger" />
+        <ul class="header__nav-links">
+          <li class="header__nav-link">quien soy</li>
+          <li class="header__nav-link">servicios</li>
+          <li class="header__nav-link">escribime</li>
+        </ul>
+      </nav>
+      <div class="header__welcome-container">
+        <div class="header__welcome">
+          <h1 class="header__title">Bienvenidos a mi sitio</h1>
+          <img src="./person.png" alt="person" class="header__person" />
+        </div>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="about__texts">
+        <h2 class="about__title">Soy Osvaldo</h2>
+        <p class="about__text">
+          Algo que me apaciona es la programación y el diseño web. Me encanta
+          aprender cosas nuevas y estar en constante crecimiento. Siempre busco
+          mejorar y superarme en lo que hago y me encanta compartir mis
+          conocimientos con los demás. Me gusta aprender de los demás y de sus
+          experiencias. Me encanta la panadería y la pastelería, es algo que
+          disfruto mucho hacer en mi tiempo libre, más cuando puedo compartirlo
+          con mis seres queridos. También disfruto de jugar juegos con mis
+          amigos y aprendí a programar gracias a ellos, metiendome en el mundo
+          de la programación de servidores de Minecraft.
+        </p>
+      </div>
+      <img src="./check.svg" alt="check icon" class="about__check" />
+    </section>
+
+    <section class="services">
+      <h2 class="services__title">Mis servicios</h2>
+      <div class="services__cards">
+        <div class="services__card">
+          <img src="./desktop.svg" alt="desktop" class="services__card-image" />
+          <h3 class="services__card-title">Plugins de Minecraft</h3>
+          <p class="services__card-text">
+            Puedo desarrollar plugins de Minecraft para tu servidor. Si tenés
+            una idea en mente, no dudes en contactarme y la hacemor realidad.
+            Puede ser cualquier cosa, desde un simple comando hasta un sistema
+            complejo.
+          </p>
+        </div>
+
+        <div class="services__card">
+          <img src="./desktop.svg" alt="desktop" class="services__card-image" />
+          <h3 class="services__card-title">Configuración de Minecraft</h3>
+          <p class="services__card-text">
+            Puedo desarrollar modalidades de Minecraft para tu servidor. Si
+            tenés una idea en mente, no dudes en contactarme y podemos hacerla
+            realidad. Puede ser algo simple que ya exista o algo completamente
+            nuevo.
+          </p>
+        </div>
+
+        <div class="services__card">
+          <img src="./desktop.svg" alt="desktop" class="services__card-image" />
+          <h3 class="services__card-title">Consultor de Minecraft</h3>
+          <p class="services__card-text">
+            Puedo ayudarte a resolver problemas en tu servidor de Minecraft.
+            Gracias a mis 6 años de experiencia en el rubro, puedo ayudarte a
+            resolver cualquier problema que tengas en tu servidor. Desde
+            problemas comunes hasta problemas complejos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2 class="contact__title">Escribime</h2>
+      <div class="contact__form">
+        <div class="contact__field">
+          <label for="name" class="contact__field-name">Nombre</label>
+          <input id="name" type="text" class="contact__field-input" />
+        </div>
+
+        <div class="contact__field">
+          <label for="name" class="contact__field-name">Email</label>
+          <input id="name" type="email" class="contact__field-input" />
+        </div>
+
+        <div class="contact__field">
+          <label for="email" class="contact__field-name">Mensaje</label>
+          <textarea
+            id="email"
+            type="email"
+            class="contact__field-textarea"
+          ></textarea>
+        </div>
+        <button class="contact__button">Enviar</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__sign">
+          <img src="./logo.svg" alt="logo" class="footer__logo" />
+          <p class="footer__copyright">© 2021 Osvaldo</p>
+        </div>
+        <div class="footer__socials">
+          <div class="footer__social">
+            <img
+              src="./instagram.svg"
+              alt="instagram logo"
+              class="footer__social-icon"
+            />
+            <p class="footer__social-name">Instagram</p>
+          </div>
+          <div class="footer__social">
+            <img
+              src="./linkedin.svg"
+              alt="linkedin logo"
+              class="footer__social-icon"
+            />
+            <p class="footer__social-name">Linkedin</p>
+          </div>
+          <div class="footer__social">
+            <img
+              src="./github.svg"
+              alt="github logo"
+              class="footer__social-icon"
+            />
+            <p class="footer__social-name">Github</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
